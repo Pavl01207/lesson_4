@@ -1,0 +1,124 @@
+/*Підключення шрифту Roboto з Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,200;16..144,700&family=Roboto:wght@400;700;900&display=swap');
+
+/* Підключення шрифту Larseeit */
+@font-face {
+	font-family: "Larsseit";
+	src: url(../fonts/Larsseit-Bold.woff2) format("woff2"),
+		url(../fonts/Larsseit-Bold.woff) format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url(../fonts/Larsseit-Regular.woff2) format("woff2"),
+		url(../fonts/Larsseit-Regular.woff), format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url(../fonts/Larsseit-Medium.woff2) format("woff2"),
+		url(../fonts/Larsseit-Medium.woff) format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+/* Підключення шрифту Lato */
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Bold.woff2) format("woff2"),
+		url(../fonts/Lato-Bold.woff) format("woof");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Regular.woff2) format("woff2"),
+		url(../fonts/Lato-Regular.woff) format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/Lato-Black.woff2) format("woff2"),
+		url(../fonts/Lato-Black.woff) format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+header {
+	font-family: "Roboto";
+	font-weight: 900;
+}
+
+.about h2 {
+	font-family: "Roboto";
+	font-weight: 700;
+	color: brown;
+}
+
+.about-text {
+	font-family: "Lato";
+	font-weight: 700;
+}
+
+.text-career {
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+.about-text>p {
+	color: crimson;
+}
+
+.about-text+.text-career {
+	color: blueviolet;
+}
+
+.about-text,
+.text-career a {
+	color: darkslategrey;
+}
+
+.album {
+	font-family: "Larsseit";
+	font-weight: 400;
+}
+
+.album h3 {
+	font-weight: 700;
+	color: darkblue;
+}
+
+.album p {
+	color: green;
+}
+
+.cover {
+	font-family: "Lato";
+	font-weight: 700;
+	color: darkslateblue;
+}
+
+.coverfirst h3,
+.coversecond h3 {
+	font-weight: 900;
+	color: brown;
+}
+
+footer * {
+	font-family: "Laesseit";
+	font-weight: 700;
+	color: maroon;
+}
